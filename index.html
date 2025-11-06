@@ -1,165 +1,632 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Privacy Policy | SahulatKar</title>
-  <style>
-    /* ====== Global Styles ====== */
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f9f9fb;
-      color: #333;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-    }
-
-    .container {
-      max-width: 900px;
-      margin: 50px auto;
-      background: #fff;
-      padding: 40px 50px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
-      border-radius: 12px;
-    }
-
-    h1, h2 {
-      color: #0070f3;
-    }
-
-    h1 {
-      text-align: center;
-      font-size: 2rem;
-      margin-bottom: 10px;
-    }
-
-    p, li {
-      font-size: 1rem;
-      margin-bottom: 10px;
-    }
-
-    ul {
-      list-style: disc;
-      padding-left: 20px;
-    }
-
-    .effective-date {
-      text-align: center;
-      color: #666;
-      font-size: 0.95rem;
-      margin-bottom: 30px;
-    }
-
-    footer {
-      text-align: center;
-      margin-top: 40px;
-      font-size: 0.9rem;
-      color: #777;
-    }
-
-    a {
-      color: #0070f3;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    @media (max-width: 600px) {
-      .container {
-        padding: 25px 20px;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - SahulatKar by Wali Villas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.7;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 50px 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            font-weight: 700;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        .header .subtitle {
+            font-size: 1.1em;
+            opacity: 0.95;
+            font-weight: 300;
+        }
+        
+        .header .effective-date {
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 25px;
+            display: inline-block;
+            font-size: 0.95em;
+            backdrop-filter: blur(10px);
+        }
+        
+        .content {
+            padding: 50px 40px;
+        }
+        
+        .intro {
+            background: linear-gradient(135deg, #e0f7ff 0%, #f0e6ff 100%);
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 40px;
+            border-left: 5px solid #667eea;
+        }
+        
+        .intro p {
+            font-size: 1.05em;
+            margin-bottom: 15px;
+        }
+        
+        .intro strong {
+            color: #667eea;
+        }
+        
+        .section {
+            margin-bottom: 45px;
+        }
+        
+        .section h2 {
+            color: #667eea;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            padding-bottom: 12px;
+            border-bottom: 3px solid #667eea;
+            display: flex;
+            align-items: center;
+        }
+        
+        .section h2::before {
+            content: "■";
+            margin-right: 12px;
+            font-size: 0.7em;
+        }
+        
+        .section h3 {
+            color: #764ba2;
+            font-size: 1.3em;
+            margin: 25px 0 15px 0;
+            font-weight: 600;
+        }
+        
+        .section p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        .section ul, .section ol {
+            margin: 15px 0 15px 25px;
+        }
+        
+        .section li {
+            margin-bottom: 12px;
+            line-height: 1.7;
+        }
+        
+        .highlight-box {
+            background: #fff9e6;
+            border-left: 4px solid #ffc107;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .info-box {
+            background: #e8f5e9;
+            border-left: 4px solid #4caf50;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .warning-box {
+            background: #ffebee;
+            border-left: 4px solid #f44336;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .data-table th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        .data-table td {
+            padding: 15px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .data-table tr:hover {
+            background: #f5f5f5;
+        }
+        
+        .contact-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            margin-top: 50px;
+            border-radius: 12px;
+            text-align: center;
+        }
+        
+        .contact-section h2 {
+            color: white;
+            border-bottom: none;
+            margin-bottom: 20px;
+        }
+        
+        .contact-section h2::before {
+            content: "";
+            margin-right: 0;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-top: 25px;
+        }
+        
+        .contact-item {
+            background: rgba(255,255,255,0.15);
+            padding: 20px 30px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .contact-item strong {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+        
+        .contact-item a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1em;
+            font-weight: 600;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 30px;
+            background: #f8f9fa;
+            color: #6c757d;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .header {
+                padding: 30px 20px;
+            }
+            
+            .header h1 {
+                font-size: 1.8em;
+            }
+            
+            .content {
+                padding: 30px 20px;
+            }
+            
+            .section h2 {
+                font-size: 1.5em;
+            }
+            
+            .contact-info {
+                flex-direction: column;
+            }
+        }
+    </style>
 </head>
-
 <body>
-  <div class="container">
-    <h1>Privacy Policy</h1>
-    <p class="effective-date"><strong>Effective Date:</strong> 9/12/2025</p>
-
-    <p>
-      Wali Villas – <strong>SahulatKar</strong> (“we,” “our,” or “us”) values your trust.
-      This Privacy Policy explains how we collect, use, and protect your information when you use our Android application and related services.
-    </p>
-
-    <h2>1. Information We Collect</h2>
-    <ul>
-      <li><strong>Personal Information</strong><br>
-        Name, email address, phone number, profile picture, and address (for service request and communication purposes).
-      </li>
-      <li><strong>Confidential Information for Service Providers</strong><br>
-        Details of Service Providers’ CNIC and their front and back images for authentication.
-      </li>
-      <li><strong>Service Usage Information</strong><br>
-        Details of services requested, scheduled, or completed (e.g., cleaning, plumbing, electrical, etc.).
-      </li>
-      <li><strong>Device Information</strong><br>
-        Device model, operating system, unique device identifiers, and app usage statistics.
-      </li>
-    </ul>
-
-    <h2>2. How We Use the Information</h2>
-    <ul>
-      <li>Provide and manage home service bookings.</li>
-      <li>Facilitate communication between customers and service providers.</li>
-      <li>Improve user experience and app functionality.</li>
-      <li>Process payments securely.</li>
-      <li>Send important notifications and updates (with user consent).</li>
-    </ul>
-
-    <h2>3. Information Sharing and Disclosure</h2>
-    <p>
-      We do not sell or rent your personal data. Information may only be shared with:
-    </p>
-    <ul>
-      <li><strong>Service Providers:</strong> To fulfill requested services.</li>
-      <li><strong>Third-Party Services:</strong> Such as cloud hosting or analytics providers.</li>
-      <li><strong>Legal Authorities:</strong> If required by law, court order, or government regulation.</li>
-    </ul>
-
-    <h2>4. Data Retention</h2>
-    <p>
-      We retain personal information only as long as necessary for providing services, complying with legal obligations, and resolving disputes.
-    </p>
-
-    <h2>5. Data Security</h2>
-    <p>
-      We implement appropriate administrative, technical, and physical safeguards to protect your information against unauthorized access, alteration, disclosure, or destruction.
-    </p>
-
-    <h2>6. Your Privacy Rights</h2>
-    <p>Depending on your region, you may have the right to:</p>
-    <ul>
-      <li>Access, update, or delete your personal data.</li>
-      <li>Withdraw consent to data processing.</li>
-      <li>Request restrictions on processing.</li>
-    </ul>
-
-    <h2>7. Children’s Privacy</h2>
-    <p>
-      Our services are not directed to children under 13. We do not knowingly collect personal data from children.
-    </p>
-
-    <h2>8. Changes to This Privacy Policy</h2>
-    <p>
-      We may update this Privacy Policy from time to time. Updates will be posted within the app and on our official website.
-    </p>
-
-    <h2>9. Contact Us</h2>
-    <p>
-      If you have questions or concerns regarding this Privacy Policy, please contact us at:
-      <br>
-      <a href="mailto:Truecrest.pk@gmail.com">Truecrest.pk@gmail.com</a>
-      <br><br>
-      <strong>Under TrueCrest</strong>
-    </p>
-
-    <footer>
-      © 2025 SahulatKar. All Rights Reserved.
-    </footer>
-  </div>
+    <div class="container">
+        <div class="header">
+            <h1>Privacy Policy</h1>
+            <div class="subtitle">SahulatKar by Wali Villas</div>
+            <div class="effective-date">Effective Date: December 9, 2025</div>
+        </div>
+        
+        <div class="content">
+            <div class="intro">
+                <p><strong>Your privacy is our priority.</strong> At SahulatKar ("we," "our," or "us"), we are committed to protecting your personal information and being transparent about how we collect, use, and safeguard your data.</p>
+                <p>This Privacy Policy explains how we handle information when you use our mobile application and services. By using SahulatKar, you acknowledge that you have read and understood this policy.</p>
+            </div>
+            
+            <div class="section">
+                <h2>1. Information We Collect</h2>
+                
+                <h3>1.1 Personal Information</h3>
+                <p>We collect personal information that you provide directly to us:</p>
+                <table class="data-table">
+                    <tr>
+                        <th>Data Type</th>
+                        <th>Purpose</th>
+                        <th>Legal Basis</th>
+                    </tr>
+                    <tr>
+                        <td>Name & Contact Details</td>
+                        <td>Account creation, service communication, booking confirmation</td>
+                        <td>Contract fulfillment</td>
+                    </tr>
+                    <tr>
+                        <td>Email Address</td>
+                        <td>Account verification, notifications, customer support</td>
+                        <td>Contract fulfillment</td>
+                    </tr>
+                    <tr>
+                        <td>Phone Number</td>
+                        <td>Service provider communication, booking updates, SMS notifications</td>
+                        <td>Contract fulfillment</td>
+                    </tr>
+                    <tr>
+                        <td>Physical Address</td>
+                        <td>Service delivery location, proximity-based matching</td>
+                        <td>Contract fulfillment</td>
+                    </tr>
+                    <tr>
+                        <td>Profile Picture</td>
+                        <td>Account personalization, user identification</td>
+                        <td>User consent</td>
+                    </tr>
+                    <tr>
+                        <td>Payment Information</td>
+                        <td>Processing transactions securely through third-party providers</td>
+                        <td>Contract fulfillment</td>
+                    </tr>
+                </table>
+                
+                <h3>1.2 Service Provider Verification Data</h3>
+                <div class="warning-box">
+                    <strong>For Service Providers Only:</strong> To ensure the safety and security of our community, we collect and verify:
+                    <ul>
+                        <li>National Identity Card (CNIC) number and images (front and back)</li>
+                        <li>Professional certifications and qualifications</li>
+                        <li>Background verification information</li>
+                        <li>Work history and references</li>
+                    </ul>
+                    <p><strong>Security Commitment:</strong> This sensitive information is encrypted, stored securely, and accessed only by authorized personnel for verification purposes. We never share identity documents with customers or third parties.</p>
+                </div>
+                
+                <h3>1.3 Service Usage Information</h3>
+                <p>We automatically collect information about how you use our services:</p>
+                <ul>
+                    <li>Service requests, bookings, and scheduling details</li>
+                    <li>Completed service history and preferences</li>
+                    <li>Ratings, reviews, and feedback provided</li>
+                    <li>Chat messages and communications within the app</li>
+                    <li>Search queries and service preferences</li>
+                </ul>
+                
+                <h3>1.4 Device and Technical Information</h3>
+                <p>To improve app performance and security, we collect:</p>
+                <ul>
+                    <li>Device model, operating system, and version</li>
+                    <li>Unique device identifiers (IMEI, Android ID)</li>
+                    <li>IP address and general location data</li>
+                    <li>App usage statistics and crash reports</li>
+                    <li>Network information (WiFi, mobile data)</li>
+                </ul>
+                
+                <h3>1.5 Location Information</h3>
+                <div class="info-box">
+                    <strong>Location Services:</strong> With your permission, we collect precise location data to:
+                    <ul>
+                        <li>Match you with nearby service providers</li>
+                        <li>Enable accurate service delivery</li>
+                        <li>Provide real-time tracking during service</li>
+                        <li>Improve service availability in your area</li>
+                    </ul>
+                    <p>You can control location permissions through your device settings at any time.</p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>2. How We Use Your Information</h2>
+                <p>We use the collected information for the following purposes:</p>
+                
+                <h3>2.1 Service Delivery</h3>
+                <ul>
+                    <li>Facilitate booking and scheduling of home services</li>
+                    <li>Connect customers with qualified service providers</li>
+                    <li>Enable real-time communication between parties</li>
+                    <li>Process and track service requests from initiation to completion</li>
+                </ul>
+                
+                <h3>2.2 Payment Processing</h3>
+                <ul>
+                    <li>Securely process payments through encrypted third-party payment gateways</li>
+                    <li>Generate invoices and payment receipts</li>
+                    <li>Handle refunds, disputes, and chargebacks</li>
+                    <li>Maintain transaction records for accounting and legal compliance</li>
+                </ul>
+                
+                <h3>2.3 Platform Improvement</h3>
+                <ul>
+                    <li>Analyze user behavior to enhance app functionality</li>
+                    <li>Conduct research and development for new features</li>
+                    <li>Identify and fix technical issues and bugs</li>
+                    <li>Optimize service quality based on feedback and ratings</li>
+                </ul>
+                
+                <h3>2.4 Communication</h3>
+                <ul>
+                    <li>Send booking confirmations, reminders, and updates</li>
+                    <li>Provide customer support and respond to inquiries</li>
+                    <li>Share promotional offers, discounts, and new services (with your consent)</li>
+                    <li>Send important security and policy updates</li>
+                </ul>
+                
+                <h3>2.5 Safety and Security</h3>
+                <ul>
+                    <li>Verify identities of service providers through background checks</li>
+                    <li>Detect and prevent fraudulent activities and abuse</li>
+                    <li>Ensure compliance with terms of service</li>
+                    <li>Protect users from security threats</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <h2>3. Information Sharing and Disclosure</h2>
+                <p><strong>We respect your privacy and do not sell or rent your personal information to third parties.</strong> We may share your information only in the following circumstances:</p>
+                
+                <h3>3.1 With Service Providers</h3>
+                <p>When you book a service, we share necessary information with the assigned service provider:</p>
+                <ul>
+                    <li>Your name and contact details</li>
+                    <li>Service location address</li>
+                    <li>Service requirements and specifications</li>
+                    <li>Scheduled date and time</li>
+                </ul>
+                <div class="info-box">
+                    <strong>Note:</strong> We share only the minimum information necessary to complete the service. Service providers are contractually bound to protect your data.
+                </div>
+                
+                <h3>3.2 With Third-Party Service Partners</h3>
+                <p>We work with trusted partners who assist us in operating our platform:</p>
+                <ul>
+                    <li><strong>Payment Processors:</strong> Stripe, PayPal, or similar services for secure payment processing</li>
+                    <li><strong>Cloud Hosting:</strong> Amazon Web Services (AWS), Google Cloud for data storage</li>
+                    <li><strong>Analytics Services:</strong> Google Analytics, Firebase for app performance monitoring</li>
+                    <li><strong>Communication Services:</strong> SMS gateways, email service providers for notifications</li>
+                    <li><strong>Customer Support:</strong> Help desk software for managing support tickets</li>
+                </ul>
+                <p>All third-party partners are required to maintain the confidentiality and security of your information and may use it only for the purposes we specify.</p>
+                
+                <h3>3.3 For Legal Compliance</h3>
+                <p>We may disclose your information when required by law or to:</p>
+                <ul>
+                    <li>Comply with legal obligations, court orders, or government requests</li>
+                    <li>Enforce our terms of service and other agreements</li>
+                    <li>Protect the rights, property, or safety of SahulatKar, our users, or the public</li>
+                    <li>Investigate and prevent fraud, security issues, or illegal activities</li>
+                </ul>
+                
+                <h3>3.4 Business Transfers</h3>
+                <p>In the event of a merger, acquisition, sale, or other transfer of business assets, user information may be transferred as part of the transaction. We will notify you via email and/or prominent notice on our app of any such change in ownership.</p>
+            </div>
+            
+            <div class="section">
+                <h2>4. Data Retention and Storage</h2>
+                <p>We retain your personal information only for as long as necessary to fulfill the purposes outlined in this policy:</p>
+                
+                <h3>4.1 Retention Periods</h3>
+                <ul>
+                    <li><strong>Active Accounts:</strong> Data retained as long as your account is active</li>
+                    <li><strong>Service History:</strong> Transaction records kept for 7 years for legal and tax purposes</li>
+                    <li><strong>Communications:</strong> Customer support communications retained for 3 years</li>
+                    <li><strong>Identity Documents:</strong> Service provider verification documents kept for 5 years or as required by law</li>
+                    <li><strong>Inactive Accounts:</strong> After 2 years of inactivity, accounts may be archived or deleted</li>
+                </ul>
+                
+                <h3>4.2 Data Storage</h3>
+                <p>Your data is stored on secure servers located in Pakistan and may be processed in other countries where we or our service providers operate. By using SahulatKar, you consent to the transfer of your information to these locations.</p>
+                
+                <div class="highlight-box">
+                    <strong>Right to Request Deletion:</strong> You can request deletion of your account and associated data at any time. Some information may be retained for legal compliance or legitimate business purposes.
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>5. Data Security</h2>
+                <p>We implement comprehensive security measures to protect your information:</p>
+                
+                <h3>5.1 Technical Safeguards</h3>
+                <ul>
+                    <li><strong>Encryption:</strong> End-to-end encryption for sensitive data transmission</li>
+                    <li><strong>Secure Servers:</strong> Industry-standard SSL/TLS protocols</li>
+                    <li><strong>Data Encryption:</strong> AES-256 encryption for stored data</li>
+                    <li><strong>Secure APIs:</strong> Protected communication channels</li>
+                    <li><strong>Regular Security Audits:</strong> Periodic vulnerability assessments</li>
+                </ul>
+                
+                <h3>5.2 Administrative Safeguards</h3>
+                <ul>
+                    <li>Access controls limiting data access to authorized personnel only</li>
+                    <li>Employee training on data protection and privacy</li>
+                    <li>Non-disclosure agreements with all team members</li>
+                    <li>Regular security policy reviews and updates</li>
+                </ul>
+                
+                <h3>5.3 Physical Safeguards</h3>
+                <ul>
+                    <li>Secure data centers with 24/7 monitoring</li>
+                    <li>Backup systems to prevent data loss</li>
+                    <li>Disaster recovery procedures</li>
+                </ul>
+                
+                <div class="warning-box">
+                    <strong>Your Responsibility:</strong> While we implement strong security measures, please keep your account credentials confidential and use a strong, unique password. Never share your login details with anyone.
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>6. Your Privacy Rights</h2>
+                <p>You have the following rights regarding your personal information:</p>
+                
+                <h3>6.1 Access and Portability</h3>
+                <ul>
+                    <li>Request a copy of your personal data in a commonly used format</li>
+                    <li>Access your account information and service history</li>
+                    <li>Export your data to another service provider</li>
+                </ul>
+                
+                <h3>6.2 Correction and Update</h3>
+                <ul>
+                    <li>Update your profile information at any time through the app</li>
+                    <li>Request correction of inaccurate or incomplete data</li>
+                    <li>Modify your communication preferences</li>
+                </ul>
+                
+                <h3>6.3 Deletion</h3>
+                <ul>
+                    <li>Request deletion of your account and associated data</li>
+                    <li>Erase specific information (subject to legal retention requirements)</li>
+                    <li>Be notified before any data is permanently deleted</li>
+                </ul>
+                
+                <h3>6.4 Consent Withdrawal</h3>
+                <ul>
+                    <li>Opt-out of promotional emails and SMS at any time</li>
+                    <li>Disable location services through device settings</li>
+                    <li>Withdraw consent for data processing (may limit service availability)</li>
+                </ul>
+                
+                <h3>6.5 Objection and Restriction</h3>
+                <ul>
+                    <li>Object to processing of your data for direct marketing</li>
+                    <li>Request restriction of processing under certain conditions</li>
+                    <li>File a complaint with relevant data protection authorities</li>
+                </ul>
+                
+                <div class="info-box">
+                    <strong>Exercising Your Rights:</strong> To exercise any of these rights, please contact us at <a href="mailto:Truecrest.pk@gmail.com" style="color: #667eea;">Truecrest.pk@gmail.com</a>. We will respond to your request within 30 days.
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>7. Cookies and Tracking Technologies</h2>
+                <p>We use cookies and similar technologies to enhance your experience:</p>
+                
+                <h3>Types of Cookies Used</h3>
+                <ul>
+                    <li><strong>Essential Cookies:</strong> Required for app functionality and security</li>
+                    <li><strong>Performance Cookies:</strong> Help us understand how users interact with the app</li>
+                    <li><strong>Functional Cookies:</strong> Remember your preferences and settings</li>
+                    <li><strong>Targeting Cookies:</strong> Used for personalized content and advertising (with your consent)</li>
+                </ul>
+                
+                <p>You can manage cookie preferences through your browser or device settings. Note that disabling cookies may affect app functionality.</p>
+            </div>
+            
+            <div class="section">
+                <h2>8. Children's Privacy</h2>
+                <div class="warning-box">
+                    <p><strong>Age Restriction:</strong> Our services are not intended for children under 18 years of age. We do not knowingly collect personal information from minors.</p>
+                    <p>If we discover that we have inadvertently collected information from a child under 18, we will delete such information immediately. Parents or guardians who believe we may have collected information from their child should contact us at <a href="mailto:Truecrest.pk@gmail.com" style="color: #f44336;">Truecrest.pk@gmail.com</a>.</p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>9. Third-Party Links</h2>
+                <p>Our app may contain links to third-party websites, services, or applications. We are not responsible for the privacy practices of these external sites. We encourage you to review their privacy policies before providing any personal information.</p>
+                <p>This Privacy Policy applies only to SahulatKar and does not cover any third-party services, even if accessed through our platform.</p>
+            </div>
+                       
+            <div class="section">
+                <h2>10. Changes to This Privacy Policy</h2>
+                <p>We may update this Privacy Policy periodically to reflect changes in our practices, technology, legal requirements, or other factors.</p>
+                
+                <h3>Notification of Changes</h3>
+                <ul>
+                    <li><strong>Minor Changes:</strong> Posted on our website and within the app</li>
+                    <li><strong>Material Changes:</strong> Email notification to registered users at least 30 days before implementation</li>
+                    <li><strong>Version History:</strong> Previous versions available upon request</li>
+                </ul>
+                
+                <div class="highlight-box">
+                    <strong>Last Updated:</strong> December 9, 2025<br>
+                    <strong>Version:</strong> 2.0
+                </div>
+                
+                <p>Your continued use of SahulatKar after changes become effective constitutes acceptance of the updated policy. If you do not agree with the changes, please discontinue use of our services.</p>
+            </div>
+            
+            <div class="section">
+                <h2>11. Legal Compliance</h2>
+                <p>This Privacy Policy is designed to comply with:</p>
+                <ul>
+                    <li>Pakistan Electronic Transactions Ordinance 2002</li>
+                    <li>Prevention of Electronic Crimes Act 2016 (PECA)</li>
+                    <li>General Data Protection Regulation (GDPR) - for EU users</li>
+                    <li>California Consumer Privacy Act (CCPA) - for California users</li>
+                    <li>Other applicable international data protection laws</li>
+                </ul>
+            </div>
+            
+            <div class="contact-section">
+                <h2>13. Contact Us</h2>
+                <p>If you have questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:</p>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <strong>Email</strong>
+                        <a href="mailto:Truecrest.pk@gmail.com">Truecrest.pk@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Company</strong>
+                        <div>TrueCrest</div>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Service</strong>
+                        <div>SahulatKar by Wali Villas</div>
+                    </div>
+                </div>
+                
+                <p style="margin-top: 30px; font-size: 0.95em; opacity: 0.9;">We aim to respond to all inquiries within 48 hours.</p>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p><strong>© 2025 SahulatKar by Wali Villas - TrueCrest. All Rights Reserved.</strong></p>
+            <p style="margin-top: 10px;">Building trust through transparency and security in home services</p>
+        </div>
+    </div>
 </body>
 </html>
